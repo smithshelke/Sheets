@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSurface">@color/secondaryDarkColor</item>
+        <item name="fontFamily">@font/majormonodisplay_regular</item>
+        <!--
+        <item name="colorOnPrimary">@color/my_app_color_on_primary</item>
+        <item name="colorOnSecondary">@color/my_app_color_on_secondary</item>
+        <item name="colorOnBackground">@color/my_app_color_on_background</item>
+        <item name="colorOnError">@color/my_app_color_on_error</item>
+        <item name="colorOnSurface">@color/my_app_color_on_surface</item>
+        -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Main.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="fontFamily">@font/majormonodisplay_regular</item>
+    </style>
+
+    <style name="Main.Headline" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/majormonodisplay_regular</item>
+    </style>
+
+    <style name="Main.Body" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/montserrat_light</item>
+    </style>
+
+</resources>
